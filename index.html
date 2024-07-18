@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Dio</title>
+
+    <style>
+      .faixa ol li{
+        display: inline-block;
+        padding-right: 10;
+      }
+    </style>
+  </head>
+
+  <body style="font-family: sans-serif ">
+    <header><h1> Oque é <abbr title="Hyper Text Markup Language">HTML</abbr></h1></header>
+    <hr>
+    <p>
+      O criador do HTML também criador da unificação da conexão como a conhecemos hoje a famosa <strong><abbr title="World Wide Web">WWW</abbr></strong> se chama <a href="https://pt.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners-Lee</a> este homem criou como uma maneira unificada e mais simplificada de enviar arquivos pela internet, sendo o HTML uma linguagem que utiliza marcas para estruturar o conteúdo aprensentado na web, por isso é reconhecido como linguagem de marcação e não de programação.
+      <blockquote>"O que fazemos agora ecoa na eternidade."<br>
+      <sub>-------------------------------------------------by Marcus Aurelius.</sub>
+      </blockquote>
+      Uma frase que representa o impacto de <u>Tim_Berners-Lee</u> no mundo e de todos que contribuiram com o ambiente web moderno. 
+    </p>
+    <H3>O Browser</H3>
+    <p>Não menos importante os browsers fazem parte dessa história e realizam uma parte crucial do funcionamento de uma página web</p>
+    <h5 style="margin: 10px;">Exemplos:</h5>
+
+    <div class="faixa" style="display: inline-block; padding-right: 10;"><ol >
+            <li><abbr title="Mosaic"><img src="img/mosaic.jpeg" width="60" alt=""></abbr></li>
+            <li><abbr title="Netscape"><img src="img/Netscape.png" width="60" alt=""></abbr></li>
+            <li><abbr title="Internet Explorer"><img src="img/internet explorer.jpeg" width="60" alt=""></abbr></li>
+          </ol>
+    </div>
+    <p>Esses navegadores já não são <del>utilizados</del> e foram descontinuados, assim outros continuaram junto a evolução web</p>
+    <h2 id="aprendizado">Meu Aprendizado</h2>
+    <p>Opa tudo bom? vou falar sobre algumas tags de html e explicar de forma suscinta como funcionam e porque desta maneira, irei falar das tags de acordo com o ensinado, segue a lista do que foi ensinado:</p>
+
+    <ul>
+      <li><a href="#estrutura"><h4 style="margin: 5px;">Estrutura Básica</h4></a></li>
+      <li><a href="#tags"><h4 style="margin: 5px;">Tags</h4></a></li>
+      <li><a href="#atributos"><h4 style="margin: 5px;">Atributos</h4></a></li>
+      <li><a href="#texto"><h4 style="margin: 5px;">Tags de Texto</h4></a></li>
+      <li><a href="#links"><h4 style="margin: 5px;">Links(Ancoragem)</h4></a></li>
+    </ul>
+
+    <h2 id="estrutura">Estrutura Básica</h2>
+    <hr>
+    <i><strong>&lt;html&gt; &lt;/html&gt;</strong></i> 
+    <p>Para dar a estrutura é necessário incluir a tag html assim pode ser<br> incluídos outras tags pois entendido que dentro destas tags ali haverão <br> outras tags html, ou seja, define a raiz do arquivo HTML.</p>
+
+    <i><strong>&lt;head&gt; &lt;/head&gt;</strong></i>
+    <p>Certas informações precisam ser adicionadas antes do lado <i>client</i> ser totalmente carregado, as informações de linguagem padrão por exemplo, esses metadados são informações do documento.</p>
+
+    
+    <i><strong>&lt;body&gt; &lt;/body&gt;</strong></i>
+    <p>A estrutura só pode ser feita com um molde e este é a tag <u>"body"</u> realizando o papel de <u>definir</u> o corpo das estruturas, assim mostrando-as para os usuários.</p>
+    
+    <h2 id="tags">Tags</h2>
+    <hr>
+    <p>Como em todo início de algo é preciso mostrar um caminho, foi mostrado algumas tags para dar exemplo a respeito do funcionamento das mesmas no HTML.</p>
+
+    <i><strong>&lt;input type = "text"/&gt;</strong></i>
+    <input type="text">
+    <p>Muito utilizado em formulários para receber todo tipo de informação, definindo o modo de entrada de dados com seus <a href="#atributos">atributos</a> e mais algumas informações extras que auxiliam na configuração dos atributos</p>
+    
+    <h4><strong><i>&lt;img src="" width="150" alt=""&gt; </i></strong></h4>
+    <h5>Exemplo:</h5>
+    <abbr title="Eu eos casas depois do curso da DIO"><img src="img/GigaChad-real.jpg" width="150" alt=""></abbr>
+
+    <p>Para se inserir imagens usamos a tag "img", além de possibilitar a inserção da imagem podemos editar seu tamanho com <a href="#atributos">atributos</a></p>
+
+    <h2 id="atributos">Atributos</h2>
+    <hr>
+    <p>São formas de aidionar regras extras a tags já criadas como por exemplo mudar o tamanho da imagem na tag "img" com o atributo <u>width</u> </p>
+    <strong>&lt;img src="" <i><u>width=""</u></i> alt=""&gt;</strong>
+    <h6>Exemplo:</h6>
+    <ul>
+      <p>Imagem <mark>original</mark>:</p>
+      <li style="padding: 15px;"><img src="img/Dio.me.jpeg" alt=""></li>
+      <p>Imagem Alterada com width:</p>
+      <li><img src="img/Dio.me.jpeg" width="150" alt=""></li>
+    </ul> 
+    <P>Outra tag que usamos atributos é a tag de ancoragem <strong>&lt;a&gt;</strong> onde colocamos um atributo para o link ser aberto em outra página com o atributo "target"</P>
+    <strong>&lt;a href="link desejado" <u>target="blank"</u>&gt;texto clicavel&lt;/a&gt;</strong>
+
+    <h2 id="texto">Tags de texto</h2>
+    <hr>
+    <p>Aqui vou exibir as tags de texto como esta que estou escrevendo, a tag de parágrafo de texto <strong>&lt;p&gt;</strong>, exemplo abaixo:</p>
+    <strong>&lt;p&gt;texto como o acima&lt;/p&gt;</strong>
+    <p>O próprio negrito do exemplo é outra tag de texto <strong>&lt;strong&gt; &lt;/strong&gt;</strong>, e abaixo vou mostrar a tag de itálico <strong>&lt;i&gt;</strong>,junto a um exemplo.</p>
+    <strong>&lt;i&gt;<i><u>texto em itálico</u></i>&lt;/i&gt;</strong>
+    <p>Também utilizei a tag de sublinhar o <i>underline</i> <strong>&lt;u&gt;</strong>, mas mostrarei duas tags parecidas a <strong>&lt;sup&gt;</strong> e <strong>&lt;sub&gt;</strong>.</p>
+    <strong>&lt;sup&gt;<sup>texto em <mark>sup</mark></sup>&lt;/sup&gt;</strong>
+    <strong>&lt;sup&gt;<sub>texto em <mark>sub</mark></sub>&lt;/sup&gt;</strong>
+    <p>Como pode der visto a tags podem tornar textos em superescrito ou sobrescrito, e usei a tag <strong>&lt;mark&gt;</strong> para ressaltar o texto dentro das tags e abaixou vou mostrar outro parecido que destaca o texto de uma maneira diferente.</p>
+
+    <blockquote>Este é a citação chamada <strong>&lt;blockquote&gt;&lt;/blockquote&gt;</strong></blockquote>
+    <H3>Listas</H3>
+    <p>As tags de lista são duas e tem duas diferenças, pois uma delas é numerada e a outão não possui uma ordem definida</p>
+    <h6>Exemplo:</h6>
+    <ol>
+      <li>Curso</li>
+      <li>HTML</li>
+    </ol>
+    <ul>
+      <li>Lista</li>
+      <li> Pode ser
+        <ul>
+          <li>encadeado</li>
+        </ul>
+    </li>
+    </ul>
+
+    <h2 id="links">Links(Ancoragem)</h2>
+    <hr>
+    <p>Os links de ancoragem são tags que ligam a outros arquivos html ou referenciam tags em um mesmo arquivo, um exemplo de ancora que volta em um mesmo arquivo:</p>
+
+     <strong><a href="#aprendizado"><small>Voltar</small></a></strong>
+     <p>Outro exemplo de ancora, porém</p>
+     <strong><a href="https://www.linkedin.com/in/italo-farias-818544233/" target="_blank">LinkedIn</a></strong>
+
+     <h1>O Fim</h1>
+     <p>O fim do projeto chegou, foi pequeno, mas aprendi muito editando ele e realizando as ideias que possuo,até um próximo projeto.</p>
+     <img src="img/programacao.gif" width="190" alt="">
+  </body>
+</html>
